@@ -4,7 +4,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 const notoSerifJP = Noto_Serif_JP({
-  subsets: ['latin', 'japanese'],
+  subsets: ['latin'], // 修正為有效子集
   weight: ['400', '600', '700'],
   variable: '--font-noto-serif-jp',
 });
